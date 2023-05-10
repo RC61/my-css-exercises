@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  
+  /* border: 10px solid red; for debugging */
 }
 
 .profile-image {
@@ -20,6 +24,9 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+
+  /* border: 5px double rgb(153, 150, 51); for debugging */
+
 }
 
 .logo {
@@ -27,6 +34,17 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  /* border: 10px solid blue; for debugging */
+  flex: 0;
+  align-self: flex-start;
+}
+
+.links {
+  display: flex;
+  /* border: 10px solid green; for debugging */
+  justify-content: flex-start;
+  flex: 1;
+  
 }
 
 button {
@@ -35,6 +53,11 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  display: flex;
+  gap: 10px;
+  
+  /* border: 10px solid orange; for debugging */
+
 }
 
 a {
