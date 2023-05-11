@@ -22,6 +22,31 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-container-left {
+  align-self: flex-start;
+}
+
+.flex-container-right {
+  flex-direction: column;
+}
+
+.right-1{
+  
+}
+.right-2{
+  align-content: center;
+}
+
+.right-3{
+  align-content: flex-start;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -66,4 +91,30 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+
+
+/* Personal DEBUG Stack */
+.flex-container {
+  border: 10px solid yellow;
+}
+
+.flex-container-left {
+  border: 10px solid blue;
+}
+
+.flex-container-right {
+  border: 10px solid red;
+}
+
+.right-1{
+  border: 10px dotted pink;
+}
+.right-2{
+  border: 10px dotted purple;
+}
+
+.right-3{
+  border: 10px dotted powderblue;
 }
