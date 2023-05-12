@@ -6,13 +6,22 @@ body {
 
 .header {
   height: 72px;
+  font-size: 32px;
+  font-weight: 900;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 16px ;
 }
 
 .footer {
   height: 72px;
   background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: darkmagenta; */
   color: darkmagenta;
 }
 
@@ -20,10 +29,62 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  /* border: 10px solid yellowgreen; */
+  flex-shrink: 0;
+  font-size: 24px;
+  font-weight: 500;
 }
 
-.card {
+.card{
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  /* border: 10px solid orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 200px;
+  height: auto;
+  margin: 100px;
+  padding: 40px;
+
+}
+
+.card-container{
+  display: flex;
+  flex: 1 1 auto;
+  /* border: 10px solid tomato; */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.content {
+  display: flex;
+  /* border: 10px dotted fuchsia; */
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+/* trying out this shit */
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 10px solid springgreen; */
 }
