@@ -45,12 +45,19 @@ input {
   /* border: 10px solid  greenyellow; */
   justify-content: space-between;
   background-color: #eeee;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+
 }
 
 .left-links {
 /* border: 10px dotted salmon; */
 display: flex;
 gap: 40px;
+padding-left: 10px;
 align-items: center;
 }
 
@@ -59,6 +66,7 @@ align-items: center;
 display: flex;
 gap: 40px;
 align-items: center;
+padding-right: 10px;
 }
 
 
