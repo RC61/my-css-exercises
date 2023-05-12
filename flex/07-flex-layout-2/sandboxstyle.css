@@ -1,0 +1,15 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-container div{
+    background: chartreuse;
+    border: 10px solid crimson;
+    height: 100px;
+    flex: 1 1 0%;
+
+}
+
+.flex-container .two {
+        flex: 2 1 0%;
+}
