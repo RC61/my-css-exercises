@@ -6,3 +6,14 @@ p.odd#numbaTree {
     font-size: 24px;
 
 }
+
+#bigBloo {
+    font-size: 36px;
+    color: rgb(14, 22, 255);
+}
+
+#fourGreeny {
+    font-size: 24px;
+    background-color: rgb(106, 253, 170);
+    font-weight: bold;
+}
