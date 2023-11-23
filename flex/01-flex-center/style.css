@@ -12,12 +12,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column-reverse;
 }
 
 .box {
   background: palevioletred;
   font-weight: bold;
   text-align: center;
+  margin: 10px;
 
   border: 6px solid maroon;
   width: 80px;
